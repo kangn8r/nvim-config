@@ -12,6 +12,7 @@ return {
       require "configs.lspconfig"
     end,
   },
+  { 'mfussenegger/nvim-jdtls' },
 
   -- Hi!
 
