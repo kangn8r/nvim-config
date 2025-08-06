@@ -13,6 +13,11 @@ return {
     end,
   },
   { 'mfussenegger/nvim-jdtls' },
+  -- Plugin manager: add nvim-dap-ui and nvim-dap
+{
+    'rcarriga/nvim-dap-ui',
+    dependencies = 'mfussenegger/nvim-dap',
+},
 
   -- Hi!
 
