@@ -13,6 +13,8 @@ return {
     end,
   },
 
+  -- Hi!
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
