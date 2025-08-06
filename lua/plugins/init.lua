@@ -13,6 +13,24 @@ return {
     end,
   },
 
+  {
+    "nvim-java/nvim-java",
+  config = false,
+  lazy = false,
+  dependencies = {
+    {
+      "neovim/nvim-lspconfig",
+      opts = {
+        setup = {
+          jdtls = function()
+            require("java").setup({})
+          end,
+        },
+      },
+    },
+  },
+  }
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
